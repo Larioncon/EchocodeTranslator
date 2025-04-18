@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1196D3522DB1D45700BF662E /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196D3512DB1D45700BF662E /* AudioService.swift */; };
 		11CF6A952DB0FE2C003D9070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6A942DB0FE2C003D9070 /* AppDelegate.swift */; };
 		11CF6A972DB0FE2C003D9070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6A962DB0FE2C003D9070 /* SceneDelegate.swift */; };
-		11CF6A992DB0FE2C003D9070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6A982DB0FE2C003D9070 /* ViewController.swift */; };
-		11CF6A9C2DB0FE2C003D9070 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11CF6A9B2DB0FE2C003D9070 /* Base */; };
 		11CF6A9F2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6A9D2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodeld */; };
 		11CF6AA12DB0FE2D003D9070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CF6AA02DB0FE2D003D9070 /* Assets.xcassets */; };
 		11CF6AA42DB0FE2D003D9070 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11CF6AA32DB0FE2D003D9070 /* Base */; };
+		11CF6AB32DB0FFEF003D9070 /* TranslatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AB22DB0FFEF003D9070 /* TranslatorVC.swift */; };
+		11CF6AB62DB1002D003D9070 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 11CF6AB52DB1002D003D9070 /* Lottie */; };
+		11CF6AB82DB10049003D9070 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AB72DB10049003D9070 /* ViewBuilder.swift */; };
+		11CF6ABA2DB10056003D9070 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AB92DB10056003D9070 /* TabViewModel.swift */; };
+		11CF6ABC2DB10076003D9070 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6ABB2DB10076003D9070 /* SettingsVC.swift */; };
+		11CF6ABE2DB10549003D9070 /* ETResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6ABD2DB10549003D9070 /* ETResultVC.swift */; };
+		11CF6AC02DB106CD003D9070 /* ETLinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6ABF2DB106CD003D9070 /* ETLinearGradientView.swift */; };
+		11CF6AC22DB10B4F003D9070 /* ETSpeechBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AC12DB10B4F003D9070 /* ETSpeechBubbleView.swift */; };
+		11CF6AC42DB11BA4003D9070 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AC32DB11BA4003D9070 /* TabItem.swift */; };
+		11CF6AC92DB11E91003D9070 /* ETTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AC82DB11E91003D9070 /* ETTabBarItem.swift */; };
+		11CF6ACB2DB11F0D003D9070 /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6ACA2DB11F0D003D9070 /* UIColor+ext.swift */; };
+		11CF6ACD2DB12FA7003D9070 /* ETLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6ACC2DB12FA7003D9070 /* ETLabel.swift */; };
+		11CF6ACF2DB13D64003D9070 /* ETSettingsBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6ACE2DB13D64003D9070 /* ETSettingsBtn.swift */; };
+		11CF6AD12DB1470E003D9070 /* Translations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AD02DB1470E003D9070 /* Translations.swift */; };
+		11CF6AD32DB14C20003D9070 /* waveLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 11CF6AD22DB14C20003D9070 /* waveLottie.json */; };
+		11CF6AD62DB14CA2003D9070 /* KonkhmerSleokchherRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11CF6AD42DB14CA2003D9070 /* KonkhmerSleokchherRegular.ttf */; };
+		11CF6AD82DB17D75003D9070 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF6AD72DB17D75003D9070 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1196D3512DB1D45700BF662E /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
 		11CF6A912DB0FE2C003D9070 /* EchocodeTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchocodeTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CF6A942DB0FE2C003D9070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CF6A962DB0FE2C003D9070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11CF6A982DB0FE2C003D9070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11CF6A9B2DB0FE2C003D9070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CF6A9E2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EchocodeTranslator.xcdatamodel; sourceTree = "<group>"; };
 		11CF6AA02DB0FE2D003D9070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CF6AA32DB0FE2D003D9070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CF6AA52DB0FE2D003D9070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CF6AB22DB0FFEF003D9070 /* TranslatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorVC.swift; sourceTree = "<group>"; };
+		11CF6AB72DB10049003D9070 /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
+		11CF6AB92DB10056003D9070 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		11CF6ABB2DB10076003D9070 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		11CF6ABD2DB10549003D9070 /* ETResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETResultVC.swift; sourceTree = "<group>"; };
+		11CF6ABF2DB106CD003D9070 /* ETLinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETLinearGradientView.swift; sourceTree = "<group>"; };
+		11CF6AC12DB10B4F003D9070 /* ETSpeechBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETSpeechBubbleView.swift; sourceTree = "<group>"; };
+		11CF6AC32DB11BA4003D9070 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		11CF6AC82DB11E91003D9070 /* ETTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETTabBarItem.swift; sourceTree = "<group>"; };
+		11CF6ACA2DB11F0D003D9070 /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
+		11CF6ACC2DB12FA7003D9070 /* ETLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETLabel.swift; sourceTree = "<group>"; };
+		11CF6ACE2DB13D64003D9070 /* ETSettingsBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETSettingsBtn.swift; sourceTree = "<group>"; };
+		11CF6AD02DB1470E003D9070 /* Translations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translations.swift; sourceTree = "<group>"; };
+		11CF6AD22DB14C20003D9070 /* waveLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waveLottie.json; sourceTree = "<group>"; };
+		11CF6AD42DB14CA2003D9070 /* KonkhmerSleokchherRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KonkhmerSleokchherRegular.ttf; sourceTree = "<group>"; };
+		11CF6AD72DB17D75003D9070 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CF6AB62DB1002D003D9070 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +90,103 @@
 		11CF6A932DB0FE2C003D9070 /* EchocodeTranslator */ = {
 			isa = PBXGroup;
 			children = (
-				11CF6A942DB0FE2C003D9070 /* AppDelegate.swift */,
-				11CF6A962DB0FE2C003D9070 /* SceneDelegate.swift */,
-				11CF6A982DB0FE2C003D9070 /* ViewController.swift */,
-				11CF6A9A2DB0FE2C003D9070 /* Main.storyboard */,
-				11CF6AA02DB0FE2D003D9070 /* Assets.xcassets */,
-				11CF6AA22DB0FE2D003D9070 /* LaunchScreen.storyboard */,
+				11CF6AD52DB14CA2003D9070 /* KonkhmerSleokchher */,
+				11CF6AB12DB0FED3003D9070 /* Model */,
+				11CF6AB02DB0FEC7003D9070 /* Extensions */,
+				11CF6AAF2DB0FEBB003D9070 /* Helpers */,
+				11CF6AAE2DB0FEAF003D9070 /* TabBar */,
+				11CF6AAD2DB0FEA7003D9070 /* Screens */,
+				11CF6AAC2DB0FE96003D9070 /* CustomViews */,
+				11CF6AAB2DB0FE73003D9070 /* Support */,
 				11CF6AA52DB0FE2D003D9070 /* Info.plist */,
-				11CF6A9D2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodeld */,
+				11CF6AD22DB14C20003D9070 /* waveLottie.json */,
 			);
 			path = EchocodeTranslator;
+			sourceTree = "<group>";
+		};
+		11CF6AAB2DB0FE73003D9070 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6A942DB0FE2C003D9070 /* AppDelegate.swift */,
+				11CF6A962DB0FE2C003D9070 /* SceneDelegate.swift */,
+				11CF6AA02DB0FE2D003D9070 /* Assets.xcassets */,
+				11CF6AA22DB0FE2D003D9070 /* LaunchScreen.storyboard */,
+				11CF6A9D2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodeld */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		11CF6AAC2DB0FE96003D9070 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6ACC2DB12FA7003D9070 /* ETLabel.swift */,
+				11CF6ABF2DB106CD003D9070 /* ETLinearGradientView.swift */,
+				11CF6AC12DB10B4F003D9070 /* ETSpeechBubbleView.swift */,
+				11CF6ACE2DB13D64003D9070 /* ETSettingsBtn.swift */,
+				11CF6ABD2DB10549003D9070 /* ETResultVC.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		11CF6AAD2DB0FEA7003D9070 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6AB22DB0FFEF003D9070 /* TranslatorVC.swift */,
+				11CF6ABB2DB10076003D9070 /* SettingsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		11CF6AAE2DB0FEAF003D9070 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6AC72DB11E62003D9070 /* TabBarItem */,
+				11CF6AD72DB17D75003D9070 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		11CF6AAF2DB0FEBB003D9070 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6AB72DB10049003D9070 /* ViewBuilder.swift */,
+				1196D3512DB1D45700BF662E /* AudioService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		11CF6AB02DB0FEC7003D9070 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6ACA2DB11F0D003D9070 /* UIColor+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11CF6AB12DB0FED3003D9070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6AB92DB10056003D9070 /* TabViewModel.swift */,
+				11CF6AC32DB11BA4003D9070 /* TabItem.swift */,
+				11CF6AD02DB1470E003D9070 /* Translations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11CF6AC72DB11E62003D9070 /* TabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6AC82DB11E91003D9070 /* ETTabBarItem.swift */,
+			);
+			path = TabBarItem;
+			sourceTree = "<group>";
+		};
+		11CF6AD52DB14CA2003D9070 /* KonkhmerSleokchher */ = {
+			isa = PBXGroup;
+			children = (
+				11CF6AD42DB14CA2003D9070 /* KonkhmerSleokchherRegular.ttf */,
+			);
+			path = KonkhmerSleokchher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +205,9 @@
 			dependencies = (
 			);
 			name = EchocodeTranslator;
+			packageProductDependencies = (
+				11CF6AB52DB1002D003D9070 /* Lottie */,
+			);
 			productName = EchocodeTranslator;
 			productReference = 11CF6A912DB0FE2C003D9070 /* EchocodeTranslator.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 11CF6A882DB0FE2C003D9070;
+			packageReferences = (
+				11CF6AB42DB1002D003D9070 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 11CF6A922DB0FE2C003D9070 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +255,8 @@
 			files = (
 				11CF6AA12DB0FE2D003D9070 /* Assets.xcassets in Resources */,
 				11CF6AA42DB0FE2D003D9070 /* Base in Resources */,
-				11CF6A9C2DB0FE2C003D9070 /* Base in Resources */,
+				11CF6AD62DB14CA2003D9070 /* KonkhmerSleokchherRegular.ttf in Resources */,
+				11CF6AD32DB14C20003D9070 /* waveLottie.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +267,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CF6A992DB0FE2C003D9070 /* ViewController.swift in Sources */,
+				11CF6ACD2DB12FA7003D9070 /* ETLabel.swift in Sources */,
+				11CF6AB32DB0FFEF003D9070 /* TranslatorVC.swift in Sources */,
 				11CF6A952DB0FE2C003D9070 /* AppDelegate.swift in Sources */,
 				11CF6A972DB0FE2C003D9070 /* SceneDelegate.swift in Sources */,
+				11CF6AC22DB10B4F003D9070 /* ETSpeechBubbleView.swift in Sources */,
+				11CF6ACB2DB11F0D003D9070 /* UIColor+ext.swift in Sources */,
+				11CF6AB82DB10049003D9070 /* ViewBuilder.swift in Sources */,
+				11CF6AD82DB17D75003D9070 /* TabBar.swift in Sources */,
+				11CF6ABE2DB10549003D9070 /* ETResultVC.swift in Sources */,
+				11CF6AC92DB11E91003D9070 /* ETTabBarItem.swift in Sources */,
+				11CF6AD12DB1470E003D9070 /* Translations.swift in Sources */,
+				11CF6ABA2DB10056003D9070 /* TabViewModel.swift in Sources */,
 				11CF6A9F2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodeld in Sources */,
+				11CF6ACF2DB13D64003D9070 /* ETSettingsBtn.swift in Sources */,
+				1196D3522DB1D45700BF662E /* AudioService.swift in Sources */,
+				11CF6ABC2DB10076003D9070 /* SettingsVC.swift in Sources */,
+				11CF6AC02DB106CD003D9070 /* ETLinearGradientView.swift in Sources */,
+				11CF6AC42DB11BA4003D9070 /* TabItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11CF6A9A2DB0FE2C003D9070 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11CF6A9B2DB0FE2C003D9070 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11CF6AA22DB0FE2D003D9070 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,9 +433,9 @@
 				INFOPLIST_FILE = EchocodeTranslator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +443,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleksandr-Chmil.EchocodeTranslator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,9 +464,9 @@
 				INFOPLIST_FILE = EchocodeTranslator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +474,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleksandr-Chmil.EchocodeTranslator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,6 +505,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11CF6AB42DB1002D003D9070 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11CF6AB52DB1002D003D9070 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11CF6AB42DB1002D003D9070 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		11CF6A9D2DB0FE2C003D9070 /* EchocodeTranslator.xcdatamodeld */ = {
